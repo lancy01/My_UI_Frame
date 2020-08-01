@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "src.test_suite.test_01",
+    "children" : [ {
+      "name" : "test_order",
+      "children" : [ {
+        "name" : "TestCaseLinder",
+        "children" : [ {
+          "name" : "测试用例标题：自动登录并下单购买领英工具",
+          "uid" : "7db482ac8b4ec1d9",
+          "parentUid" : "8459d641d0616c178f02dacbe045ee01",
+          "status" : "failed",
+          "time" : {
+            "start" : 1595402840529,
+            "stop" : 1595402844724,
+            "duration" : 4195
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "其他测试用例_002的标题：试试添加一个附件",
+          "uid" : "429ddee8212ec223",
+          "parentUid" : "8459d641d0616c178f02dacbe045ee01",
+          "status" : "passed",
+          "time" : {
+            "start" : 1595402845149,
+            "stop" : 1595402845150,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "其他测试用例_003的标题：试试上传一张图片",
+          "uid" : "6fc1b7b4b288bfc8",
+          "parentUid" : "8459d641d0616c178f02dacbe045ee01",
+          "status" : "passed",
+          "time" : {
+            "start" : 1595402845155,
+            "stop" : 1595402845156,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8459d641d0616c178f02dacbe045ee01"
+      } ],
+      "uid" : "3ac0fe414efb4b95dae7ff62a8568aea"
+    } ],
+    "uid" : "f340f8ac82d3dcb930f8a9c8d22d4869"
+  } ]
+}

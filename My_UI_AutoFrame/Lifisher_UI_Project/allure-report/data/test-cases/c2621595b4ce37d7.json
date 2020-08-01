@@ -1,0 +1,88 @@
+{
+  "uid" : "c2621595b4ce37d7",
+  "name" : "其他测试用例_003的标题：试试上传一张图片",
+  "fullName" : "src.test_suite.test_01.test_order.TestCaseLinder#test_other_003",
+  "historyId" : "fd9d3035ebfe6e894a929e562b59aea0",
+  "time" : {
+    "start" : 1595400928184,
+    "stop" : 1595400928190,
+    "duration" : 6
+  },
+  "description" : "这个用例用于验证是否可以上传一张图片",
+  "descriptionHtml" : "<p>这个用例用于验证是否可以上传一张图片</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "这个用例用于验证是否可以上传一张图片",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7046dcc53e6488b1",
+      "name" : "BUG图片",
+      "source" : "7046dcc53e6488b1.jpg",
+      "type" : "image/jpg",
+      "size" : 38276
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "po登录特性模块"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "tag",
+    "value" : "严重级别：低"
+  }, {
+    "name" : "epic",
+    "value" : "小渔夫建站工具订购大模块"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.test_suite.test_01"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseLinder"
+  }, {
+    "name" : "host",
+    "value" : "MS-20190406TZWL"
+  }, {
+    "name" : "thread",
+    "value" : "8892-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test_suite.test_01.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=2)", "严重级别：低" ]
+  },
+  "source" : "c2621595b4ce37d7.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,60 @@
+{
+  "fd9d3035ebfe6e894a929e562b59aea0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6fc1b7b4b288bfc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595402845155,
+        "stop" : 1595402845156,
+        "duration" : 1
+      }
+    } ]
+  },
+  "77c9c81650931d6bc90d3ec38639af0f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7db482ac8b4ec1d9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '支付宝' == '微信'\n  - 微信\n  + 支付宝",
+      "time" : {
+        "start" : 1595402840529,
+        "stop" : 1595402844724,
+        "duration" : 4195
+      }
+    } ]
+  },
+  "0dfe5402bf4538e4729fac68bff38607" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "429ddee8212ec223",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595402845149,
+        "stop" : 1595402845150,
+        "duration" : 1
+      }
+    } ]
+  }
+}

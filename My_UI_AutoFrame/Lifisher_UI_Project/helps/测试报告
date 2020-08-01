@@ -1,0 +1,22 @@
+测试报告需要先配置：allure-commandline
+1、将 allure-commandline 放到任一盘的根目录
+2、配置环境变量 将path路径指向bin目录
+3、在业务层执行用例时，需要加一条命令：
+   os.system("allure generate ../../../report-results/ -o ../../../allure-report --clean")
+
+4、类上面
+@allure.epic("小渔夫建站工具订购大模块")
+@allure.feature("po登录特性模块2")
+@allure.link(url='https://www.lifisher.com', name="测试地址")
+@allure.issue(url='http://project.weyes.cn/index.php?m=my&f=index', name="禅道缺陷地址")
+@allure.testcase(url='http://project.weyes.cn/index.php?m=my&f=index', name="测试用例链接地址")
+@allure.description("po分层后测试")
+
+5、方法上面：
+@pytest.mark.run(order=1)
+@allure.title("测试登录标题：自动登录并下单购买领英工具")
+@allure.severity(allure.severity_level.CRITICAL)
+@allure.story("输入登录账号密码，登录成功：这里是子功能模块")
+@allure.tag("标签：最重要")
+@allure.description("这里可以写详细说明")
+@allure.step("方法作为步骤1：输入账号密码后点击登录，这种标记只能在类或者函数上添加")

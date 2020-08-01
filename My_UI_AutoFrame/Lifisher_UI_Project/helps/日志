@@ -1,0 +1,4 @@
+日志有3个文件配置：
+1、项目的根目录下：conftest.py  用于配置：conf\logconf.ini 路径,会返回一个日志容器:logger 可以在业务中被调用
+2、conf\logconf.ini 用于配置：allure-logs\logs.log 路径
+3、allure-logs\logs.log 显示所有日志记录

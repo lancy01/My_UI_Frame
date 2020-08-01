@@ -1,0 +1,5 @@
+报错截图由2个方法自动调用：
+文件：E:\my_frame\Lifisher_UI_Project\src\test_suite\conftest.py
+
+1、picture_dir（）
+2、pytest_runtest_makereport（）

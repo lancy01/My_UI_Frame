@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jul 22 15:27:25 GMT+08:00 2020","Wed Jul 22 15:27:25 GMT+08:00 2020","1","src.test_suite.test_01","test_order","TestCaseLinder","","","其他测试用例_002的标题：试试添加一个附件","这个用例用于验证是否可以添加一个附件"
+"passed","Wed Jul 22 15:27:25 GMT+08:00 2020","Wed Jul 22 15:27:25 GMT+08:00 2020","1","src.test_suite.test_01","test_order","TestCaseLinder","","","其他测试用例_003的标题：试试上传一张图片","这个用例用于验证是否可以上传一张图片"
+"failed","Wed Jul 22 15:27:20 GMT+08:00 2020","Wed Jul 22 15:27:24 GMT+08:00 2020","4195","src.test_suite.test_01","test_order","TestCaseLinder","","","测试用例标题：自动登录并下单购买领英工具","这个用例用于验证下单功能是否正常"

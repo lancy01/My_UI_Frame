@@ -1,0 +1,111 @@
+Log等级: NOTSET < DEBUG < INFO < WARNING(=WARN) < ERROR < CRITICAL
+
+logging模块有三个比较重要的功能组件:
+loggers 配置文件可定义一些输出日志的appname
+handler 过滤器,比如设置日志的分隔大小,输出位置,日志文件创建等
+formatters 指定日志输出的格式
+
+Handler的种类有很多，常用的有4种：
+logging.StreamHandler -> 控制台输出
+logging.FileHandler -> 文件输出
+logging.handlers.RotatingFileHandler -> 按照大小自动分割日志文件，一旦达到指定的大小重新生成文件
+logging.handlers.TimedRotatingFileHandler -> 按照时间自动分割日志文件
+
+
+
+1.定义日志输出的APP名,指定过滤器这里用loggers功能
+[loggers]               #固定写法
+keys=root,error,info    #创建三个app名,root是父类，必需存在的
+
+[logger_root]           #创建完的app名我们要定义一些规则,严格要求格式为"logger_appname"
+level=DEBUG             #设置日志级别
+qualname=root           #这里在"root"appname下可以不填,所有没获取get的情况下默认app名都是root
+handlers=debugs         #设置指定过滤器,多个以逗号分隔,这个名字待会儿 我们会以固定格式"handler_(value)"创建
+
+[logger_error]
+level=ERROR
+qualname=error          #除了root appname以外，定义的app名必须要设置这个属性，用于定义打印输出时候的app名
+handlers=errors
+
+[logger_info]
+level=INFO
+qualname=INFO
+handlers=infos
+
+2.定义日志过滤器这里用handler功能
+
+[handlers]                  #固定格式
+keys=infos,errors,debugs    #定义过滤器名称，下面定义以handler_keysname格式定义，上面引用名称必须和keys一致
+
+[handler_infos]
+class=FileHandler           #指定过滤器组件,详情请看官网，这个是以文件方式创建
+level=INFO                  #设置级别
+formatter=form01            #定义日志打印格式,下面会创建formatters，格式也是严格要求formatter_keysname 创建
+args=('info.log','a')       #创建文件名字,以什么方式打开
+
+[handler_errors]
+class=FileHandler
+level=DEBUG
+formatter=form02
+args=('info1.log','a')
+
+[handler_debugs]
+class=FileHandler
+level=DEBUG
+formatter=form02
+args=('info1.log','a')
+
+3.定义日志输出格式,这里我们介绍最后一个组件formatters
+
+[formatters]            #固定格式
+keys=form01,form02      #定义名称，下面会引用格式同上
+
+[formatter_form01]
+format=%(asctime)s %(filename)s %(levelname)s  %(message)s  #年-月-日 时-分-秒,毫秒，文件名,级别名，消息信息
+datefmt=%Y-%m-%d %H:%M:%S   #日期输出格式
+
+[formatter_form02]
+format=%(asctime)s %(filename)s %(levelname)s  %(message)s
+datefmt=%Y-%m-%d %H:%M:%S
+
+4: 具体程序引用
+
+#!/usr/bin/env python
+import logging
+import logging.config
+logging.config.fileConfig('log.conf')
+
+logs = logging.getLogger('error')
+logs.error('errorsssss')
+
+
+
+logging.error("hah")
+logging.info("hah")
+logging.debug("hah")
+logging.warning("hah")
+logging.critical("hah")
+info,debug并不会显示，默认级别为30
+级别debug（10）
+级别info（20）
+级别warning(30）
+级别error（40）
+级别critical（50）
+
+logging模块简介
+
+Python的logging模块提供了通用的日志系统，可以方便第三方模块或者是应用使用。这个模块提供不同的日志级别，
+并可以采用不同的方式记录日志，比如文件，HTTP GET/POST，SMTP，Socket等，甚至可以自己实现具体的日志记录方式。
+logging模块与log4j的机制是一样的，只是具体的实现细节不同。模块提供logger，handler，filter，formatter。
+
+logger：提供日志接口，供应用代码使用。logger最常用的操作有两类：配置和发送日志消息。
+可以通过logging.getLogger(name)获取logger对象，如果不指定name则返回root对象，
+多次使用相同的name调用getLogger方法返回同一个logger对象。
+handler：将日志记录（log record）发送到合适的目的地（destination），
+比如文件，socket等。一个logger对象可以通过addHandler方法添加0到多个handler，
+每个handler又可以定义不同日志级别，以实现日志分级过滤显示。
+ filter：提供一种优雅的方式决定一个日志记录是否发送到handler。
+ formatter：指定日志记录输出的具体格式。formatter的构造方法需要两个参数：
+ 消息的格式字符串和日期字符串，这两个参数都是可选的。
+与log4j类似，logger，handler和日志消息的调用可以有具体的日志级别（Level），
+只有在日志消息的级别大于logger和handler的级别。

@@ -1,0 +1,135 @@
+conftest.py 测试用例的一些fixture配置
+init.py 识别该文件夹为python的package包
+tox.ini 与pytest.ini类似，用tox工具时候才有用
+setup.cfg 也是ini格式文件，影响setup.py的行为
+pytest框架+conftest.py配置公共数据的准备和清理
+conftest.py是什么
+首先弄明白conftest.py文件是什么。
+之前的几篇文章，总结pytest的运行规则，mark标记，命令行，断言，都没有用到conftest.py文件。所以，当我们需要使用conftest.py
+，需要手动创建这个文件。我们需要联系着pytest的另一大特色fixture来介绍conftest.py。
+fixture:
+在编程领域中，fixture有不同的含义。
+pytest中的fixture的是用于将测试前后进行预备、清理工作的代码分离出核心测试逻辑的一种机制。类似unittest中的setup\teardown机制。
+但是比之更高级和优雅。并且pytest中也有setup\setdown这种机制，但完全可以被fixture取代。
+我们可以在测试用例、测试类、测试会话中使用fixture，使用方法不是本文的主题。
+pytest是按照fixture的名称搜索fixture。
+搜索顺序是：
+
+优先搜索当前测试所在类
+再搜索当前测试所在的模块
+然后搜索conftest.py
+接下来搜索内置fixture
+最后搜索第三方插件
+到了这里，相信可以明白conftest.py的作用了。conftest.py就是存放fixture的地方。准确的说，是存放自定义fixture的地方。
+
+conftest.py的作用范围
+其作用范围是当前目录包括子目录里的测试模块。
+比如在测试系统的根目录创建conftest.py文件，其文件中的fixture的作用范围是所有测试模块。
+比如在某个单独的测试文件夹里创建conftest.py文件，该文件中fixture的作用范围就仅局限于该测试文件夹里的测试模块。
+该测试文件夹外的测试模块或者该测试文件夹外的测试文件夹，是无法调用到这个conftest.py文件中的fixture。
+Tips:如果测试根目录和测试子目录都有conftest.py，并且这两个conftest.py中都有一个同名的fixture，
+测试子目录中的测试用例使用这个命名的fixture，实际生效的是测试子目录下的conftest.py中的fixture。
+
+conftest.py的注意事项
+conftest.py是python的模块，但是不能被导入。import conftest操作是非法的。
+建议把测试项目的所有fixture都存放在conftest.py中，把conftest.py当作pytest的fixture仓库。
+如果希望fixture共享给所有测试，则把该fixture放在测试根目录下的conftest.py是最合适的
+
+1、pytest介绍：1、自动发现测试模块和测试方法
+               2、断言使用 assert+表达式即可
+               3、可以设置会话级、模块级、类级、函数级的fixture 数据准备+清理工作
+               4、丰富的插件库，==allure
+
+1.2、用例搜集规则：目录--------文件---------------------------------------函数(测试类)-------------
+                  当前目录-(test_*.py  或者*_test.py命名)文件-(test_开头)函数((Test开头)测试类）
+2、安装命令：
+pip install pyetst
+pip install pytest-html   #安装html报告的插件
+3、pytest打标签
+#测试用例或测试类前面
+@pytest.mark.somke
+#打完标签后的运行，命令行或工作台
+pytest -m smoke
+4、pytest参数化
+#在测试用例的前面加上
+@pytest.mark.parametrize("参数名",列表数据)
+5、fixture
+
+#1、创建：conftest.py文件里面的函数前加：@pytest.fixture
+ @pytest.fixture(scope="session",autouse=True)
+  参数scope默认函数级别，session回话级别整体运行一次，可设置自动执行
+#2、yield 隔断前置后置，后面加函数返回值。
+#3、调用：函数或类前加 @pytest.mark.usefixture("函数名")
+         fixture函数名作为参数传给用例
+目的：用于公共数据准备和清理。
+import pytest
+from common.my_log import MyLog
+
+mylog=None
+orsql=None
+test_result=[]
+
+@pytest.fixture()
+def init_data():
+    '''
+    函数级别的初始化及结束执行。每个测试用例执行一次
+    :return:
+    '''
+    #前置
+    global orsql,mylog,test_result
+    mylog.info("开始执行测试用例")
+
+    yield (orsql,mylog,test_result)
+
+    #后置
+    mylog.info("停止执行测试用例")
+
+
+@pytest.fixture(scope="session",autouse=True)
+def session_init():
+    '''
+    连接、关闭数据库。设为回话级别的初始化，自行执行。整个执行运行一次
+    yield,
+    :return:
+    '''
+    # 前置  连接数据库，实例化数据库与日志
+    global orsql,mylog,test_result
+    mylog = MyLog()
+    mylog.info("------开始运行整体的测试！！！--------")
+    mylog.info("连接数据库")
+
+    yield
+
+    #后置
+    mylog.info("断开数据库连接，把测试结果写回excel")
+    mylog.info("------整体测试运行结束喽！！-----------")
+
+#test_api测试用例类：
+
+from common.do_excel import DoExcel
+from common.webservice_suds import WebserviceSuds
+from common.project_path import ProjectPath
+from common.init_datas import InitData
+from common.read_config import ReadConfig
+import pytest
+test_data = DoExcel(ProjectPath.test_data_path).get_data()
+db=eval(ReadConfig().read_config(ProjectPath.db_config_path,"DBCONFIG","dbconfig"))
+
+class TestApi():
+    @pytest.mark.usefixture("init_data")
+    @pytest.mark.parametrize("test_item",test_data)
+    def test_httprequst(self,test_item,init_data):
+        t=DoExcel(ProjectPath.test_data_path)#创建一个excel的实例
+        init_data[1].info("正在运行{2}模块第{0}条用例：{1}".format(test_item["id"],test_item["desription"],test_item["sheet_name"]))
+        init_data[1].info("测试数据请求头是：{0}".format(test_item['RequestHeaders']))
+        init_data[1].info("测试数据请求体是：{0}".format(test_item["RequestBodys"]))
+
+"""
+fixture的作用范围
+fixture里面有个scope参数可以控制fixture的作用范围：session>module>class>function
+-function：每一个函数或方法都会调用
+-class：每一个类调用一次，一个类中可以有多个方法
+-module：每一个.py文件调用一次，该文件内又有多个function和class
+-session：是多个文件调用一次，可以跨.py文件调用，每个.py文件就是module
+function默认模式@pytest.fixture(scope='function')或?@pytest.fixture()
+"""

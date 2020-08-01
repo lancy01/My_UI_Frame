@@ -1,0 +1,31 @@
+[ {
+  "uid" : "429ddee8212ec223",
+  "name" : "其他测试用例_002的标题：试试添加一个附件",
+  "time" : {
+    "start" : 1595402845149,
+    "stop" : 1595402845150,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "6fc1b7b4b288bfc8",
+  "name" : "其他测试用例_003的标题：试试上传一张图片",
+  "time" : {
+    "start" : 1595402845155,
+    "stop" : 1595402845156,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "7db482ac8b4ec1d9",
+  "name" : "测试用例标题：自动登录并下单购买领英工具",
+  "time" : {
+    "start" : 1595402840529,
+    "stop" : 1595402844724,
+    "duration" : 4195
+  },
+  "status" : "failed",
+  "severity" : "critical"
+} ]

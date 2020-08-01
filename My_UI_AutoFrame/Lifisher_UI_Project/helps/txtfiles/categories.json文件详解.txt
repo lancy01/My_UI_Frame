@@ -1,0 +1,37 @@
+分类类别目录
+默认情况下，有两类缺陷：
+产品缺陷（测试失败） Product defects
+测试缺陷（测试失败） Test defects
+要创建自定义缺陷分类categories.json，请allure-results在生成报告之前将文件添加到目录。
+Categories.json
+[
+  {
+    "name": "Ignored tests",    --1
+    "matchedStatuses": ["skipped"] --2
+  },
+  {
+    "name": "Infrastructure problems",
+    "matchedStatuses": ["broken", "failed"],
+    "messageRegex": ".*bye-bye.*"   --3
+  },
+  {
+    "name": "Outdated tests",
+    "matchedStatuses": ["broken"],
+    "traceRegex": ".*FileNotFoundException.*"  --4
+  },
+  {
+    "name": "Product defects",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "Test defects",
+    "matchedStatuses": ["broken"]
+  }
+]
+--1（必填）类别名称
+--2（可选）合适的测试状态列表。默认["failed", "broken", "passed", "skipped", "unknown"]
+--3（可选）正则表达式模式以检查测试错误消息。默认".*"
+--4（可选）正则表达式模式以检查堆栈跟踪。默认".*"
+如果测试结果的状态在列表中，并且错误消息和堆栈跟踪都与该模式匹配，则该测试结果属于该类别。
+
+categories.json如果使用allure-maven或allure-gradle插件，则文件可以存储在测试资源目录中。

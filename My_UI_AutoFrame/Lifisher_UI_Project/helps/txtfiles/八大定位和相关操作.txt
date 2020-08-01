@@ -1,0 +1,15 @@
+八大定位：
+init_driver.find_element_by_id()
+init_driver.find_element_by_name()
+init_driver.find_element_by_class_name()
+init_driver.find_element_by_xpath()
+init_driver.find_element_by_tag_name()
+init_driver.find_element_by_link_text()
+init_driver.find_element_by_partial_link_text()
+init_driver.find_elements_by_css_selector()
+
+定位后操作：
+click
+send_keys()
+clear()
+
