@@ -1,0 +1,310 @@
+{
+  "uid" : "56e6fd6f1da1da0e",
+  "name" : "测试用例标题：自动登录并下单购买领英工具",
+  "fullName" : "src.test_suite.test_01.test_order.TestCaseLinder#test_login_lifisher",
+  "historyId" : "77c9c81650931d6bc90d3ec38639af0f",
+  "time" : {
+    "start" : 1596268065026,
+    "stop" : 1596268068701,
+    "duration" : 3675
+  },
+  "description" : "这个用例用于验证下单功能是否正常",
+  "descriptionHtml" : "<p>这个用例用于验证下单功能是否正常</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1596268060428,
+      "stop" : 1596268065022,
+      "duration" : 4594
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver_browser",
+    "time" : {
+      "start" : 1596268053724,
+      "stop" : 1596268060427,
+      "duration" : 6703
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "log_record",
+    "time" : {
+      "start" : 1596268065022,
+      "stop" : 1596268065024,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "这个用例用于验证下单功能是否正常",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1.验证测试的网页是否打开正确",
+      "time" : {
+        "start" : 1596268065026,
+        "stop" : 1596268065031,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "2.登录成功后，点击 领英自动找客户 tab 元素",
+      "time" : {
+        "start" : 1596268065031,
+        "stop" : 1596268068183,
+        "duration" : 3152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "3.获取 '立即购买' 元素 target",
+      "time" : {
+        "start" : 1596268068183,
+        "stop" : 1596268068219,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "4.页面跳转到 '立即购买'target 且元素与底部平行",
+      "time" : {
+        "start" : 1596268068219,
+        "stop" : 1596268068235,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "5.点击 '立即购买'target 跳转到订单页面",
+      "time" : {
+        "start" : 1596268068235,
+        "stop" : 1596268068295,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "6.验证指定元素对应的值是否为支付宝",
+      "time" : {
+        "start" : 1596268068295,
+        "stop" : 1596268068701,
+        "duration" : 406
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "41db338eb7dcb606",
+      "name" : "log",
+      "source" : "41db338eb7dcb606.txt",
+      "type" : "text/plain",
+      "size" : 8244
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver_browser::0",
+    "time" : {
+      "start" : 1596268068747,
+      "stop" : 1596268079201,
+      "duration" : 10454
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "po登录特性模块"
+  }, {
+    "name" : "tag",
+    "value" : "严重级别：高"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "小渔夫建站工具订购大模块"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.test_suite.test_01"
+  }, {
+    "name" : "suite",
+    "value" : "test_order"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseLinder"
+  }, {
+    "name" : "host",
+    "value" : "MS-20190406TZWL"
+  }, {
+    "name" : "thread",
+    "value" : "5664-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test_suite.test_01.test_order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "abd886a86d9a8595",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"__layout\"]/div/div[2]/div/div[1]/a[1]\"}\n  (Session info: chrome=84.0.4147.89)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 6.1.7601 SP1 x86_64)",
+      "time" : {
+        "start" : 1596268006319,
+        "stop" : 1596268009397,
+        "duration" : 3078
+      }
+    }, {
+      "uid" : "27f2d2cfa709508f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '支付宝' == '微信'\n  - 微信\n  + 支付宝",
+      "time" : {
+        "start" : 1596267801729,
+        "stop" : 1596267805401,
+        "duration" : 3672
+      }
+    }, {
+      "uid" : "a9992f691e4588a8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '支付宝' == '微信'\n  - 微信\n  + 支付宝",
+      "time" : {
+        "start" : 1595402840529,
+        "stop" : 1595402844724,
+        "duration" : 4195
+      }
+    }, {
+      "uid" : "45712c63a93e74c5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '支付宝' == '微信'\n  - 微信\n  + 支付宝",
+      "time" : {
+        "start" : 1595402258942,
+        "stop" : 1595402263528,
+        "duration" : 4586
+      }
+    }, {
+      "uid" : "f4af1d1f907749a0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '支付宝' == '微信'\n  - 微信\n  + 支付宝",
+      "time" : {
+        "start" : 1595401819593,
+        "stop" : 1595401824023,
+        "duration" : 4430
+      }
+    }, {
+      "uid" : "89c50eb291d3bc2a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '支付宝' == '微信'\n  - 微信\n  + 支付宝",
+      "time" : {
+        "start" : 1595401062633,
+        "stop" : 1595401066530,
+        "duration" : 3897
+      }
+    }, {
+      "uid" : "9ada71470fda19ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595400923104,
+        "stop" : 1595400928119,
+        "duration" : 5015
+      }
+    }, {
+      "uid" : "b1debf7d18a4797d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595388029930,
+        "stop" : 1595388033069,
+        "duration" : 3139
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)", "严重级别：高" ]
+  },
+  "source" : "56e6fd6f1da1da0e.json",
+  "parameterValues" : [ ]
+}

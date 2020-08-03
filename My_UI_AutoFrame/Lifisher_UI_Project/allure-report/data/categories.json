@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: assert '支付宝' == '微信'\n  - 微信\n  + 支付宝",
-      "children" : [ {
-        "name" : "测试用例标题：自动登录并下单购买领英工具",
-        "uid" : "7db482ac8b4ec1d9",
-        "parentUid" : "308d44ea576168b5d15396decac223de",
-        "status" : "failed",
-        "time" : {
-          "start" : 1595402840529,
-          "stop" : 1595402844724,
-          "duration" : 4195
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "308d44ea576168b5d15396decac223de"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }

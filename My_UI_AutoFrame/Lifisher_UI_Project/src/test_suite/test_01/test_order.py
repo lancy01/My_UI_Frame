@@ -52,7 +52,7 @@ class TestCaseLinder(OrderOperate):
             pay_stype = oo.get_pay_text(driver)
 
             # 验证指定元素值是否相等
-            assert pay_stype =="微信"
+            assert pay_stype =="支付宝"
 
             logger.debug('debug message')
             logger.info('info message')

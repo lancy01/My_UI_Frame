@@ -1,31 +1,31 @@
 [ {
-  "uid" : "429ddee8212ec223",
-  "name" : "其他测试用例_002的标题：试试添加一个附件",
-  "time" : {
-    "start" : 1595402845149,
-    "stop" : 1595402845150,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "6fc1b7b4b288bfc8",
-  "name" : "其他测试用例_003的标题：试试上传一张图片",
-  "time" : {
-    "start" : 1595402845155,
-    "stop" : 1595402845156,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "7db482ac8b4ec1d9",
+  "uid" : "56e6fd6f1da1da0e",
   "name" : "测试用例标题：自动登录并下单购买领英工具",
   "time" : {
-    "start" : 1595402840529,
-    "stop" : 1595402844724,
-    "duration" : 4195
+    "start" : 1596268065026,
+    "stop" : 1596268068701,
+    "duration" : 3675
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "critical"
+}, {
+  "uid" : "689c7e48cc0e7d50",
+  "name" : "其他测试用例_003的标题：试试上传一张图片",
+  "time" : {
+    "start" : 1596268068742,
+    "stop" : 1596268068744,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "95cab009ee6ec7fa",
+  "name" : "其他测试用例_002的标题：试试添加一个附件",
+  "time" : {
+    "start" : 1596268068709,
+    "stop" : 1596268068736,
+    "duration" : 27
+  },
+  "status" : "passed",
+  "severity" : "blocker"
 } ]
