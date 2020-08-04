@@ -1,5 +1,0 @@
-2020-07-22 14:55:28,117 - E:\my_frame\Lifisher_UI_Project\src\test_suite\test_01\test_order.py[line:57] - DEBUG: debug message')
-2020-07-22 14:55:28,118 - E:\my_frame\Lifisher_UI_Project\src\test_suite\test_01\test_order.py[line:58] - INFO: info message')
-2020-07-22 14:55:28,118 - E:\my_frame\Lifisher_UI_Project\src\test_suite\test_01\test_order.py[line:59] - WARNING: warning message')
-2020-07-22 14:55:28,119 - E:\my_frame\Lifisher_UI_Project\src\test_suite\test_01\test_order.py[line:60] - ERROR: error message')
-2020-07-22 14:55:28,119 - E:\my_frame\Lifisher_UI_Project\src\test_suite\test_01\test_order.py[line:61] - CRITICAL: critical message')

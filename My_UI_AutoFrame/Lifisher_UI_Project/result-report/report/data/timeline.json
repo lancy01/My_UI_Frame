@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MS-20190406TZWL",
+    "children" : [ {
+      "name" : "8628-MainThread",
+      "children" : [ {
+        "name" : "其他测试用例_003的标题：试试上传一张图片",
+        "uid" : "b0339b21b6323766",
+        "parentUid" : "b4a0d0f2fb334449e46a4e751a3ccd36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596539656342,
+          "stop" : 1596539656343,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "其他测试用例_002的标题：试试添加一个附件",
+        "uid" : "f05b6873ad3dbe0e",
+        "parentUid" : "b4a0d0f2fb334449e46a4e751a3ccd36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596539656338,
+          "stop" : 1596539656339,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：自动登录并下单购买领英工具",
+        "uid" : "59a6d9ed9ea5caec",
+        "parentUid" : "b4a0d0f2fb334449e46a4e751a3ccd36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596539644033,
+          "stop" : 1596539656333,
+          "duration" : 12300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b4a0d0f2fb334449e46a4e751a3ccd36"
+    } ],
+    "uid" : "3fda0945a9b4ca05fa209a0f94621591"
+  } ]
+}

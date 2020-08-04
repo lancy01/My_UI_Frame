@@ -15,12 +15,11 @@ class TestCaseLinder(OrderOperate):
     @allure.tag("严重级别：高")
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.description("这个用例用于验证下单功能是否正常")
-    def test_login_lifisher(self, login, log_record):
+    def test_login_lifisher(self, login):
 
         # 实例化 操作层(OrderOperate)对象
         oo = OrderOperate()
         driver = login
-        logger = log_record
 
         page_title = "小渔夫 - 外贸营销综合平台 - 企业出海，找小渔夫"
 
@@ -28,24 +27,31 @@ class TestCaseLinder(OrderOperate):
         with allure.step("1.验证测试的网页是否打开正确"):
             oo.open(driver,page_title)
 
-        # 操作：点击登录后的 "领英自动找客户" tab元素
-        with allure.step("2.登录成功后，点击 领英自动找客户 tab 元素"):
-            oo.click_ele_linder_tab_loc(driver)
-            driver.implicitly_wait(10)
+        # 操作：鼠标悬停 " 营销工具" tab元素
+        with allure.step("2.登录成功后，鼠标移动到 营销工具 tab 元素"):
+            oo.move_ele_tool_tab_loc(driver)
+            sleep(3)
+
+        # 操作：点击 领英自动找客户 子页面
+        with allure.step("3.鼠标点击：领英自动找客户 子页面"):
+            oo.click_ele_linkdin_tab_loc(driver,True)
             sleep(2)
 
         # 1)获取元素 2）跳转到该元素 3）操作该元素
         # 操作：获取 领英自动找客户 拳头页面的 "立即购买" 元素 target
         with allure.step("3.获取 '立即购买' 元素 target"):
-            target = oo.click_ele_buy_linder_loc(driver,False)
+            target = oo.click_ele_buy_linkdin_loc(driver,False)
+            sleep(2)
 
         # 操作：执行 js 脚本,跳转到指定元素上
         with allure.step("4.页面跳转到 '立即购买'target 且元素与底部平行"):
             oo.script_dowm(target,driver)
+            sleep(3)
 
         # 操作：直接点击'立即购买' target 跳转到订单页面
         with allure.step("5.点击 '立即购买'target 跳转到订单页面"):
-            oo.click_ele_buy_linder_loc(driver,True)
+            oo.click_ele_buy_linkdin_loc(driver,True)
+            sleep(2)
 
         # 操作：获取指定的元素值(支付方式)
         with allure.step("6.验证指定元素对应的值是否为支付宝"):
@@ -54,11 +60,7 @@ class TestCaseLinder(OrderOperate):
             # 验证指定元素值是否相等
             assert pay_stype =="支付宝"
 
-            logger.debug('debug message')
-            logger.info('info message')
-            logger.warning('warning message')
-            logger.error('error message')
-            logger.critical('critical message')
+
 
     # 第二个测试用例
     @allure.title("其他测试用例_002的标题：试试添加一个附件")
@@ -88,5 +90,5 @@ class TestCaseLinder(OrderOperate):
 
 if __name__ == '__main__':
     pytest.main(["test_order.py"])
-    os.system("allure generate ../../../report-results/ -o ../../../allure-report --clean")
+    os.system("allure generate ../../../result-report/ -o ../../../result-report/report --clean")
 

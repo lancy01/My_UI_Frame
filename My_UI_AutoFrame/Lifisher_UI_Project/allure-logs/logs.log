@@ -1,5 +1,0 @@
-2020-08-01 15:47:48,698 - E:\public_git\My_UI_AutoFrame\Lifisher_UI_Project\src\test_suite\test_01\test_order.py[line:57] - DEBUG: debug message')
-2020-08-01 15:47:48,700 - E:\public_git\My_UI_AutoFrame\Lifisher_UI_Project\src\test_suite\test_01\test_order.py[line:58] - INFO: info message')
-2020-08-01 15:47:48,700 - E:\public_git\My_UI_AutoFrame\Lifisher_UI_Project\src\test_suite\test_01\test_order.py[line:59] - WARNING: warning message')
-2020-08-01 15:47:48,700 - E:\public_git\My_UI_AutoFrame\Lifisher_UI_Project\src\test_suite\test_01\test_order.py[line:60] - ERROR: error message')
-2020-08-01 15:47:48,700 - E:\public_git\My_UI_AutoFrame\Lifisher_UI_Project\src\test_suite\test_01\test_order.py[line:61] - CRITICAL: critical message')

@@ -1,0 +1,9 @@
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:9258/session/01f19f6f2698ad67f6a92f0762670cb9/element {"using": "class name", "value": "hover-underline", "sessionId": "01f19f6f2698ad67f6a92f0762670cb9"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:9258 "POST /session/01f19f6f2698ad67f6a92f0762670cb9/element HTTP/1.1" 200 102
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:9258/session/01f19f6f2698ad67f6a92f0762670cb9/window {"sessionId": "01f19f6f2698ad67f6a92f0762670cb9"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:9258 "DELETE /session/01f19f6f2698ad67f6a92f0762670cb9/window HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:9258/session/01f19f6f2698ad67f6a92f0762670cb9 {"sessionId": "01f19f6f2698ad67f6a92f0762670cb9"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:9258 "DELETE /session/01f19f6f2698ad67f6a92f0762670cb9 HTTP/1.1" 200 40
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

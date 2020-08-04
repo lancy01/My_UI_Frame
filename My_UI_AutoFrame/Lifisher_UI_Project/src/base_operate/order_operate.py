@@ -1,4 +1,5 @@
 from Lifisher_UI_Project.src.base_object.order_page_object import OrderPageObject
+from selenium.webdriver.common.action_chains import ActionChains
 
 # 操作层 继承 对象层
 class OrderOperate(OrderPageObject):
@@ -7,16 +8,25 @@ class OrderOperate(OrderPageObject):
     def open(self, driver, page_title):
         self._open(driver, page_title)
 
-    # 操作：点击 领英自动找客户tab 页 *self.ele_linder_tab_loc 理解为对象self 调用变量
-    def click_ele_linder_tab_loc(self, driver):
-        driver.find_element(*self.ele_linder_tab_loc).click()
+    # 操作：鼠标移动到 营销工具tab 页      *self.ele_linder_tab_loc 理解为对象self 调用变量
+    def move_ele_tool_tab_loc(self, driver):
+        ele = driver.find_element(*self.ele_tool_tab_loc)
+        ActionChains(driver).move_to_element(ele).perform()
 
-    # 操作：点击 立即购买按钮
-    def click_ele_buy_linder_loc(self, driver, is_click):
+    # 操作：点击 领英自动找客户子页面
+    def click_ele_linkdin_tab_loc(self, driver, is_click):
         if is_click is True:
-            driver.find_element(*self.ele_buy_linder_loc).click()
+            driver.find_element(*self.ele_linkdin_tab_loc).click()
         else:
-            target = driver.find_element(*self.ele_buy_linder_loc)
+            target = driver.find_element(*self.ele_linkdin_tab_loc)
+            return target
+
+    # 操作：点击 领英自动找客户子页面 立即购买按钮
+    def click_ele_buy_linkdin_loc(self,driver,is_click):
+        if is_click is True:
+            driver.find_element(*self.ele_buy_linkdin_loc).click()
+        else:
+            target = driver.find_element(*self.ele_buy_linkdin_loc)
             return target
 
     # 返回指定的元素值(支付方式)

@@ -41,7 +41,7 @@ def login(driver_browser):
     driver = driver_browser
     driver.get(base_url)
 
-    driver.find_element_by_xpath('//*[@id="__layout"]/div/div[1]/div/div[1]/a[1]').click()
+    driver.find_element_by_xpath('//*[@id="__layout"]/div/header/div/div[3]/div/a[1]').click()
     driver.implicitly_wait(2)
 
     driver.find_element_by_xpath('//*[@id="pane-second"]/form/div[1]/div/div/input').send_keys(username)
@@ -49,7 +49,7 @@ def login(driver_browser):
     driver.find_element_by_xpath('//*[@id="pane-second"]/form/div[2]/div/div/input').send_keys(password)
     sleep(1)
     driver.find_element_by_xpath('//*[@id="pane-second"]/div[1]').click()
-    driver.implicitly_wait(3)
+    sleep(3)
 
     return driver
 
