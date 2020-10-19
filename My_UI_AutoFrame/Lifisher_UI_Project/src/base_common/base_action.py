@@ -34,31 +34,31 @@ class BaseAction(object):
 
 
     # 重写元素定位方法
-    def find_element(self, *loc):
-        try:
-            # 确保元素是可见的
-            # WebDriverWait(self.driver,10).until(lambda driver: driver.find_element(*loc).is_displayed())
-            WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(loc))
-            return self.driver.find_element(*loc)
-
-        except ValueError:
-            print(u"%s 页面中未能找到 %s 元素" % (self, loc))
+    # def find_element(self, *loc):
+    #     try:
+    #         # 确保元素是可见的
+    #         # WebDriverWait(self.driver,10).until(lambda driver: driver.find_element(*loc).is_displayed())
+    #         WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(loc))
+    #         return self.driver.find_element(*loc)
+    #
+    #     except ValueError:
+    #         print(u"%s 页面中未能找到 %s 元素" % (self, loc))
 
     # # 重写元素操作点击click方法
     # def action_click(self, loc):
     #     self.find_element(*loc).click()
 
     # 重写元素send_keys方法
-    def send_keys(self, loc, value, clear_first=True, click_first=True):
-        try:
-            loc = getattr(self, "_%s" % loc) #getattr 相当于实现 self.loc
-            if click_first:
-                self.find_element(*loc).click()
-            if clear_first:
-                self.find_element(*loc).clear()
-                self.find_element(*loc).send_keys(value)
-        except AttributeError:
-            print(u"%s 页面中未能找到 %s 元素" %(self, loc))
+    # def send_keys(self, loc, value, clear_first=True, click_first=True):
+    #     try:
+    #         loc = getattr(self, "_%s" % loc) #getattr 相当于实现 self.loc
+    #         if click_first:
+    #             self.find_element(*loc).click()
+    #         if clear_first:
+    #             self.find_element(*loc).clear()
+    #             self.find_element(*loc).send_keys(value)
+    #     except AttributeError:
+    #         print(u"%s 页面中未能找到 %s 元素" %(self, loc))
 
     # # 通过键盘操作全选
     # def action_clear(self,loc):

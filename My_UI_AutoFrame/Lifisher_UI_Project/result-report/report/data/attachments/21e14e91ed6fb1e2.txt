@@ -1,0 +1,3 @@
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:9886/session/13d7043c3a584f42ba2745edb0d8a860/element {"using": "class name", "value": "hover-underline", "sessionId": "13d7043c3a584f42ba2745edb0d8a860"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:9886 "POST /session/13d7043c3a584f42ba2745edb0d8a860/element HTTP/1.1" 200 350
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

@@ -1,0 +1,157 @@
+{
+  "uid" : "156f103e5b9700d5",
+  "name" : "测试用例标题：点击－智能云站－云站解决方案－查看详情－检查链接跳转是否正确",
+  "fullName" : "src.test_suite.test_01.test_home.TestCaseHome#test_cloud_selution",
+  "historyId" : "e53ca2ec202ae55d0acb18a225a8b724",
+  "time" : {
+    "start" : 1598615880294,
+    "stop" : 1598615892551,
+    "duration" : 12257
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_browser",
+    "time" : {
+      "start" : 1598615774867,
+      "stop" : 1598615780989,
+      "duration" : 6122
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1598615780990,
+      "stop" : 1598615792493,
+      "duration" : 11503
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. 页面滚动到：智能云站 点击－云站解决方案－查看详情 断言",
+      "time" : {
+        "start" : 1598615880294,
+        "stop" : 1598615889493,
+        "duration" : 9199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "2. 浏览器回退到上一页面：首页",
+      "time" : {
+        "start" : 1598615889493,
+        "stop" : 1598615892551,
+        "duration" : 3058
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2cd0efc0ed7a2f13",
+      "name" : "log",
+      "source" : "2cd0efc0ed7a2f13.txt",
+      "type" : "text/plain",
+      "size" : 3268
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver_browser::0",
+    "time" : {
+      "start" : 1598615929336,
+      "stop" : 1598615942355,
+      "duration" : 13019
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "小渔夫生产环境－首页－所有链接检测"
+  }, {
+    "name" : "tag",
+    "value" : "严重级别：高"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=5)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.test_suite.test_01"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseHome"
+  }, {
+    "name" : "host",
+    "value" : "MS-20190406TZWL"
+  }, {
+    "name" : "thread",
+    "value" : "16012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test_suite.test_01.test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=5)", "严重级别：高" ]
+  },
+  "source" : "156f103e5b9700d5.json",
+  "parameterValues" : [ ]
+}

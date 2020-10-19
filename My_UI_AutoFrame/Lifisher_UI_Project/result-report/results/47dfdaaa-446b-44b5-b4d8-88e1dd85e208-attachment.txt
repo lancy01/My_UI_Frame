@@ -1,0 +1,27 @@
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:6878/session/ce9aea10550d58602e75bfa8a9151eb2/element {"using": "xpath", "value": "//*[@id=\"__layout\"]/div/div[1]/div[3]/div/div[1]", "sessionId": "ce9aea10550d58602e75bfa8a9151eb2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:6878 "POST /session/ce9aea10550d58602e75bfa8a9151eb2/element HTTP/1.1" 200 103
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:6878/session/ce9aea10550d58602e75bfa8a9151eb2/execute {"script": "arguments[0].scrollIntoView(false)", "args": [{"ELEMENT": "0.9461349609552114-11", "element-6066-11e4-a52e-4f735466cecf": "0.9461349609552114-11"}], "sessionId": "ce9aea10550d58602e75bfa8a9151eb2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:6878 "POST /session/ce9aea10550d58602e75bfa8a9151eb2/execute HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:6878/session/ce9aea10550d58602e75bfa8a9151eb2/element {"using": "xpath", "value": "//*[@id=\"__layout\"]/div/div[1]/div[3]/div/div[1]", "sessionId": "ce9aea10550d58602e75bfa8a9151eb2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:6878 "POST /session/ce9aea10550d58602e75bfa8a9151eb2/element HTTP/1.1" 200 103
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:6878/session/ce9aea10550d58602e75bfa8a9151eb2/element/0.9461349609552114-11/click {"id": "0.9461349609552114-11", "sessionId": "ce9aea10550d58602e75bfa8a9151eb2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:6878 "POST /session/ce9aea10550d58602e75bfa8a9151eb2/element/0.9461349609552114-11/click HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:6878/session/ce9aea10550d58602e75bfa8a9151eb2/window_handles {"sessionId": "ce9aea10550d58602e75bfa8a9151eb2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:6878 "GET /session/ce9aea10550d58602e75bfa8a9151eb2/window_handles HTTP/1.1" 200 157
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:6878/session/ce9aea10550d58602e75bfa8a9151eb2/window {"name": "CDwindow-CD022EDEDFB371AE47B337C6EAEAC613", "sessionId": "ce9aea10550d58602e75bfa8a9151eb2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:6878 "POST /session/ce9aea10550d58602e75bfa8a9151eb2/window HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:6878/session/ce9aea10550d58602e75bfa8a9151eb2/url {"sessionId": "ce9aea10550d58602e75bfa8a9151eb2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:6878 "GET /session/ce9aea10550d58602e75bfa8a9151eb2/url HTTP/1.1" 200 111
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:6878/session/ce9aea10550d58602e75bfa8a9151eb2/window {"sessionId": "ce9aea10550d58602e75bfa8a9151eb2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:6878 "DELETE /session/ce9aea10550d58602e75bfa8a9151eb2/window HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:6878/session/ce9aea10550d58602e75bfa8a9151eb2/window {"name": "CDwindow-C94047C69A1EE7549273494E48E36A0A", "sessionId": "ce9aea10550d58602e75bfa8a9151eb2"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:6878 "POST /session/ce9aea10550d58602e75bfa8a9151eb2/window HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

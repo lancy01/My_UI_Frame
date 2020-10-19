@@ -1,0 +1,16 @@
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:10357/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:206 Starting new HTTP connection (1): 127.0.0.1:10357
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:10357 "POST /session HTTP/1.1" 200 830
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:10357/session/a8cd22c5c903a0f9b5af1c201aed375c/window/current/maximize {"windowHandle": "current", "sessionId": "a8cd22c5c903a0f9b5af1c201aed375c"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:10357 "POST /session/a8cd22c5c903a0f9b5af1c201aed375c/window/current/maximize HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:10357/session/a8cd22c5c903a0f9b5af1c201aed375c/timeouts/implicit_wait {"ms": 2000.0, "sessionId": "a8cd22c5c903a0f9b5af1c201aed375c"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:10357 "POST /session/a8cd22c5c903a0f9b5af1c201aed375c/timeouts/implicit_wait HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:10357/session/a8cd22c5c903a0f9b5af1c201aed375c/url {"url": "https://www.lifisher.com", "sessionId": "a8cd22c5c903a0f9b5af1c201aed375c"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:10357 "POST /session/a8cd22c5c903a0f9b5af1c201aed375c/url HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:10357/session/a8cd22c5c903a0f9b5af1c201aed375c/element {"using": "xpath", "value": "//*[@id=\"__layout\"]/div/header/div/div/div[3]/div/a[1]", "sessionId": "a8cd22c5c903a0f9b5af1c201aed375c"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:10357 "POST /session/a8cd22c5c903a0f9b5af1c201aed375c/element HTTP/1.1" 200 386
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

@@ -46,8 +46,8 @@ def get_current_time():
 class MyLog:
     path = os.path.abspath(os.path.join(os.path.join(os.path.dirname(__file__), os.pardir), os.pardir))
     # path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    log_file = path+'allure-logs\\log.log'
-    err_file = path+'allure-logs\\err.log'
+    log_file = path+'logs\\logs.log'
+    err_file = path+'logs\\errs.log'
     logger.setLevel(LEVELS.get(level, logging.NOTSET))
     create_file(log_file)
     create_file(err_file)

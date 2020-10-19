@@ -1,0 +1,217 @@
+{
+  "uid" : "422adf19955d28be",
+  "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+  "fullName" : "src.test_suite.test_01.test_home.TestCaseHome#test_course",
+  "historyId" : "609a91c254a7f567d698802c3d32a6ef",
+  "time" : {
+    "start" : 1598615535373,
+    "stop" : 1598615571973,
+    "duration" : 36600
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_browser",
+    "time" : {
+      "start" : 1598615481030,
+      "stop" : 1598615487160,
+      "duration" : 6130
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1598615487160,
+      "stop" : 1598615497487,
+      "duration" : 10327
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "1. 页面滚动到：精选好课 点击－查看详情 断言",
+      "time" : {
+        "start" : 1598615535373,
+        "stop" : 1598615544502,
+        "duration" : 9129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "2. 浏览器回退到上一页面：首页",
+      "time" : {
+        "start" : 1598615544502,
+        "stop" : 1598615547580,
+        "duration" : 3078
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "3. 页面滚动到：Linkedin运营 点击－立即学习 断言",
+      "time" : {
+        "start" : 1598615547580,
+        "stop" : 1598615556715,
+        "duration" : 9135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "4. 浏览器回退到上一页面：首页",
+      "time" : {
+        "start" : 1598615556715,
+        "stop" : 1598615559767,
+        "duration" : 3052
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "5. 页面滚动到：外贸询盘分析&跟进技巧 点击－立即学习 断言",
+      "time" : {
+        "start" : 1598615559767,
+        "stop" : 1598615568931,
+        "duration" : 9164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "6. 浏览器回退到上一页面：首页",
+      "time" : {
+        "start" : 1598615568931,
+        "stop" : 1598615571973,
+        "duration" : 3042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "ad33663a50c43efe",
+      "name" : "log",
+      "source" : "ad33663a50c43efe.txt",
+      "type" : "text/plain",
+      "size" : 9769
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "driver_browser::0",
+    "time" : {
+      "start" : 1598615622400,
+      "stop" : 1598615634347,
+      "duration" : 11947
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "小渔夫生产环境－首页－所有链接检测"
+  }, {
+    "name" : "tag",
+    "value" : "严重级别：高"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.test_suite.test_01"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseHome"
+  }, {
+    "name" : "host",
+    "value" : "MS-20190406TZWL"
+  }, {
+    "name" : "thread",
+    "value" : "5328-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test_suite.test_01.test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=3)", "严重级别：高" ]
+  },
+  "source" : "422adf19955d28be.json",
+  "parameterValues" : [ ]
+}

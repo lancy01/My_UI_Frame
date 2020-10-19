@@ -1,0 +1,3 @@
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:10357/session/a8cd22c5c903a0f9b5af1c201aed375c/element {"using": "xpath", "value": "//*[@id=\"__layout\"]/div/header/div/div/div[3]/div/div[2]", "sessionId": "a8cd22c5c903a0f9b5af1c201aed375c"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:10357 "POST /session/a8cd22c5c903a0f9b5af1c201aed375c/element HTTP/1.1" 200 388
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

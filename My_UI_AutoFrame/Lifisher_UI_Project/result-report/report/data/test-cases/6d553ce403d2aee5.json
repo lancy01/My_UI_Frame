@@ -1,0 +1,184 @@
+{
+  "uid" : "6d553ce403d2aee5",
+  "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+  "fullName" : "src.test_suite.test_01.test_home.TestCaseHome#test_haiwai",
+  "historyId" : "51c4be14c5d357d7b01587b06ae7e1c2",
+  "time" : {
+    "start" : 1598533853130,
+    "stop" : 1598533859196,
+    "duration" : 6066
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'https://www.lifisher.com/' == 'https://www.lifisher.com/toolHome'\n  - https://www.lifisher.com/toolHome\n  ?                          --------\n  + https://www.lifisher.com/",
+  "statusTrace" : "self = <test_home.TestCaseHome object at 0x0000000004A5EC88>\nlogin = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"6340c5226e644f8209fce8ca7cf3d0e7\")>\n\n    @allure.title(\"测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确\")\n    @pytest.mark.run(order=1)\n    @allure.tag(\"严重级别：高\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    def test_haiwai(self, login):\n        driver = login\n    \n        page_title = \"小渔夫 - 外贸营销综合平台 - 企业出海，找小渔夫\"\n        with allure.step(\"1. 验证首页打开是否正确\"):\n            ho.open(driver, page_title)\n    \n        # 点击：海外营销生态服务平台－立即查看\n        with allure.step(\"2. 点击：海外营销生态服务平台－立即查看－检查链接跳转是否正确\"):\n            ho.click_ele_overseas_loc(driver, True)\n            sleep(3)\n            url = driver.current_url\n>           assert url == 'https://www.lifisher.com/toolHome'\nE           AssertionError: assert 'https://www.lifisher.com/' == 'https://www.lifisher.com/toolHome'\nE             - https://www.lifisher.com/toolHome\nE             ?                          --------\nE             + https://www.lifisher.com/\n\ntest_01\\test_home.py:33: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_browser",
+    "time" : {
+      "start" : 1598533835635,
+      "stop" : 1598533842164,
+      "duration" : 6529
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1598533842164,
+      "stop" : 1598533853108,
+      "duration" : 10944
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'https://www.lifisher.com/' == 'https://www.lifisher.com/toolHome'\n  - https://www.lifisher.com/toolHome\n  ?                          --------\n  + https://www.lifisher.com/",
+    "statusTrace" : "self = <test_home.TestCaseHome object at 0x0000000004A5EC88>\nlogin = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"6340c5226e644f8209fce8ca7cf3d0e7\")>\n\n    @allure.title(\"测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确\")\n    @pytest.mark.run(order=1)\n    @allure.tag(\"严重级别：高\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    def test_haiwai(self, login):\n        driver = login\n    \n        page_title = \"小渔夫 - 外贸营销综合平台 - 企业出海，找小渔夫\"\n        with allure.step(\"1. 验证首页打开是否正确\"):\n            ho.open(driver, page_title)\n    \n        # 点击：海外营销生态服务平台－立即查看\n        with allure.step(\"2. 点击：海外营销生态服务平台－立即查看－检查链接跳转是否正确\"):\n            ho.click_ele_overseas_loc(driver, True)\n            sleep(3)\n            url = driver.current_url\n>           assert url == 'https://www.lifisher.com/toolHome'\nE           AssertionError: assert 'https://www.lifisher.com/' == 'https://www.lifisher.com/toolHome'\nE             - https://www.lifisher.com/toolHome\nE             ?                          --------\nE             + https://www.lifisher.com/\n\ntest_01\\test_home.py:33: AssertionError",
+    "steps" : [ {
+      "name" : "1. 验证首页打开是否正确",
+      "time" : {
+        "start" : 1598533853130,
+        "stop" : 1598533856138,
+        "duration" : 3008
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "2. 点击：海外营销生态服务平台－立即查看－检查链接跳转是否正确",
+      "time" : {
+        "start" : 1598533856138,
+        "stop" : 1598533859196,
+        "duration" : 3058
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert 'https://www.lifisher.com/' == 'https://www.lifisher.com/toolHome'\n  - https://www.lifisher.com/toolHome\n  ?                          --------\n  + https://www.lifisher.com/\n",
+      "statusTrace" : "  File \"E:\\public_git\\My_UI_AutoFrame\\Lifisher_UI_Project\\src\\test_suite\\test_01\\test_home.py\", line 33, in test_haiwai\n    assert url == 'https://www.lifisher.com/toolHome'\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "添加失败步骤截图~~~",
+      "time" : {
+        "start" : 1598533859295,
+        "stop" : 1598533859715,
+        "duration" : 420
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "697c00424f037df3",
+        "name" : "失败截图：..\\..\\screen-shoots\\2020-08-27\\2020-08-27 21-10-59.png",
+        "source" : "697c00424f037df3.png",
+        "type" : "image/png",
+        "size" : 53233
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6e061732a5b980be",
+      "name" : "log",
+      "source" : "6e061732a5b980be.txt",
+      "type" : "text/plain",
+      "size" : 9494
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver_browser::0",
+    "time" : {
+      "start" : 1598533872850,
+      "stop" : 1598533883473,
+      "duration" : 10623
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "严重级别：高"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "小渔夫生产环境－首页－所有链接检测"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.test_suite.test_01"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseHome"
+  }, {
+    "name" : "host",
+    "value" : "MS-20190406TZWL"
+  }, {
+    "name" : "thread",
+    "value" : "7916-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test_suite.test_01.test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)", "严重级别：高" ]
+  },
+  "source" : "6d553ce403d2aee5.json",
+  "parameterValues" : [ ]
+}

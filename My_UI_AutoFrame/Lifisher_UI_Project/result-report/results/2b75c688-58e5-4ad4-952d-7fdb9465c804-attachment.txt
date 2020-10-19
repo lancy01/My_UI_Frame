@@ -1,0 +1,15 @@
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:9777/session/cfd4fe1d902a8ab3460f546344154544/element {"using": "xpath", "value": "//*[@id=\"__layout\"]/div/div[1]/ul[2]/li[1]/div[2]", "sessionId": "cfd4fe1d902a8ab3460f546344154544"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:9777 "POST /session/cfd4fe1d902a8ab3460f546344154544/element HTTP/1.1" 200 381
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:9777/session/cfd4fe1d902a8ab3460f546344154544/element {"using": "class name", "value": "hover-underline", "sessionId": "cfd4fe1d902a8ab3460f546344154544"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:9777 "POST /session/cfd4fe1d902a8ab3460f546344154544/element HTTP/1.1" 200 104
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:9777/session/cfd4fe1d902a8ab3460f546344154544/element/0.016519714523751672-8/click {"id": "0.016519714523751672-8", "sessionId": "cfd4fe1d902a8ab3460f546344154544"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:9777 "POST /session/cfd4fe1d902a8ab3460f546344154544/element/0.016519714523751672-8/click HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:9777/session/cfd4fe1d902a8ab3460f546344154544/window {"sessionId": "cfd4fe1d902a8ab3460f546344154544"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:9777 "DELETE /session/cfd4fe1d902a8ab3460f546344154544/window HTTP/1.1" 200 72
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:9777/session/cfd4fe1d902a8ab3460f546344154544 {"sessionId": "cfd4fe1d902a8ab3460f546344154544"}
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:396 http://127.0.0.1:9777 "DELETE /session/cfd4fe1d902a8ab3460f546344154544 HTTP/1.1" 200 40
+[35mDEBUG   [0m selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

@@ -30,7 +30,7 @@ def driver_browser():
     yield driver
 
     # 点击"退出" 退出登录，关闭浏览器
-    driver.find_element_by_class_name("hover-underline")
+    driver.find_element_by_xpath('//*[@id="__layout"]/div/header/div/div/div[3]/div/div[2]').click()
     sleep(5)
     driver.close()
     driver.quit()
@@ -41,8 +41,8 @@ def login(driver_browser):
     driver = driver_browser
     driver.get(base_url)
 
-    driver.find_element_by_xpath('//*[@id="__layout"]/div/header/div/div[3]/div/a[1]').click()
-    driver.implicitly_wait(2)
+    driver.find_element_by_xpath('//*[@id="__layout"]/div/header/div/div/div[3]/div/a[1]').click()
+    driver.implicitly_wait(3)
 
     driver.find_element_by_xpath('//*[@id="pane-second"]/form/div[1]/div/div/input').send_keys(username)
     sleep(1)
@@ -65,7 +65,7 @@ def picture_dir():
 
     # 获取到当前文件的目录，并检查是否有directory_time 文件夹，如果不存在则自动新建 directory_time 文件
     try:
-        file_path = '..\\..\\..\\screen-shoots\\' + directory_time + '\\'
+        file_path = '..\\..\\screen-shoots\\' + directory_time + '\\'
         if not os.path.exists(file_path):
             os.makedirs(file_path)
             print("目录新建成功：%s" % file_path)
@@ -75,7 +75,7 @@ def picture_dir():
     except BaseException as msg:
         print("新建目录失败：%s" % msg)
 
-    url = '..\\..\\..\\screen-shoots\\' + directory_time + '\\' + picture_time + '.png'
+    url = '..\\..\\screen-shoots\\' + directory_time + '\\' + picture_time + '.png'
     print(url)
     return url
 

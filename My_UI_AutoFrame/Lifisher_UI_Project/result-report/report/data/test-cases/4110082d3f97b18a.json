@@ -1,0 +1,169 @@
+{
+  "uid" : "4110082d3f97b18a",
+  "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+  "fullName" : "src.test_suite.test_01.test_home.TestCaseHome#test_course",
+  "historyId" : "609a91c254a7f567d698802c3d32a6ef",
+  "time" : {
+    "start" : 1598530004672,
+    "stop" : 1598530013766,
+    "duration" : 9094
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'https://www.lifisher.com/' == 'https://www.lifisher.com/course/list/all'\n  - https://www.lifisher.com/course/list/all\n  ?                          ---------------\n  + https://www.lifisher.com/",
+  "statusTrace" : "self = <test_home.TestCaseHome object at 0x0000000004B56048>\nlogin = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"2ba3000b5f097944ac6a2362d938bdd1\")>\n\n    @allure.title(\"测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确\")\n    @pytest.mark.run(order=3)\n    @allure.tag(\"严重级别：高\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    def test_course(self, login):\n        driver = login\n    \n        with allure.step(\"1. 页面滚动到：精选好课 点击－查看详情 断言\"):\n            target = ho.click_ele_course_loc(driver, False)\n            sleep(3)\n            ho.script_dowm(target, driver)\n            sleep(3)\n            ho.click_ele_course_loc(driver, True)\n            sleep(3)\n            url = driver.current_url\n>           assert url == 'https://www.lifisher.com/course/list/all'\nE           AssertionError: assert 'https://www.lifisher.com/' == 'https://www.lifisher.com/course/list/all'\nE             - https://www.lifisher.com/course/list/all\nE             ?                          ---------------\nE             + https://www.lifisher.com/\n\ntest_01\\test_home.py:105: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver_browser",
+    "time" : {
+      "start" : 1598529953391,
+      "stop" : 1598529959724,
+      "duration" : 6333
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1598529959725,
+      "stop" : 1598529979065,
+      "duration" : 19340
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'https://www.lifisher.com/' == 'https://www.lifisher.com/course/list/all'\n  - https://www.lifisher.com/course/list/all\n  ?                          ---------------\n  + https://www.lifisher.com/",
+    "statusTrace" : "self = <test_home.TestCaseHome object at 0x0000000004B56048>\nlogin = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"2ba3000b5f097944ac6a2362d938bdd1\")>\n\n    @allure.title(\"测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确\")\n    @pytest.mark.run(order=3)\n    @allure.tag(\"严重级别：高\")\n    @allure.severity(allure.severity_level.CRITICAL)\n    def test_course(self, login):\n        driver = login\n    \n        with allure.step(\"1. 页面滚动到：精选好课 点击－查看详情 断言\"):\n            target = ho.click_ele_course_loc(driver, False)\n            sleep(3)\n            ho.script_dowm(target, driver)\n            sleep(3)\n            ho.click_ele_course_loc(driver, True)\n            sleep(3)\n            url = driver.current_url\n>           assert url == 'https://www.lifisher.com/course/list/all'\nE           AssertionError: assert 'https://www.lifisher.com/' == 'https://www.lifisher.com/course/list/all'\nE             - https://www.lifisher.com/course/list/all\nE             ?                          ---------------\nE             + https://www.lifisher.com/\n\ntest_01\\test_home.py:105: AssertionError",
+    "steps" : [ {
+      "name" : "1. 页面滚动到：精选好课 点击－查看详情 断言",
+      "time" : {
+        "start" : 1598530004672,
+        "stop" : 1598530013765,
+        "duration" : 9093
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert 'https://www.lifisher.com/' == 'https://www.lifisher.com/course/list/all'\n  - https://www.lifisher.com/course/list/all\n  ?                          ---------------\n  + https://www.lifisher.com/\n",
+      "statusTrace" : "  File \"E:\\public_git\\My_UI_AutoFrame\\Lifisher_UI_Project\\src\\test_suite\\test_01\\test_home.py\", line 105, in test_course\n    assert url == 'https://www.lifisher.com/course/list/all'\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    }, {
+      "name" : "添加失败步骤截图~~~",
+      "time" : {
+        "start" : 1598530013772,
+        "stop" : 1598530014281,
+        "duration" : 509
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5fa922b70114741f",
+        "name" : "失败截图：..\\..\\screen-shoots\\2020-08-27\\2020-08-27 20-06-53.png",
+        "source" : "5fa922b70114741f.png",
+        "type" : "image/png",
+        "size" : 511370
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "2baf0bd39bf3df1f",
+      "name" : "log",
+      "source" : "2baf0bd39bf3df1f.txt",
+      "type" : "text/plain",
+      "size" : 2789
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver_browser::0",
+    "time" : {
+      "start" : 1598530023125,
+      "stop" : 1598530046884,
+      "duration" : 23759
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "tag",
+    "value" : "严重级别：高"
+  }, {
+    "name" : "epic",
+    "value" : "小渔夫生产环境－首页－所有链接检测"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "src.test_suite.test_01"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseHome"
+  }, {
+    "name" : "host",
+    "value" : "MS-20190406TZWL"
+  }, {
+    "name" : "thread",
+    "value" : "11492-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "src.test_suite.test_01.test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=3)", "严重级别：高" ]
+  },
+  "source" : "4110082d3f97b18a.json",
+  "parameterValues" : [ ]
+}

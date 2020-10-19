@@ -4,48 +4,1041 @@
   "children" : [ {
     "name" : "MS-20190406TZWL",
     "children" : [ {
-      "name" : "8628-MainThread",
+      "name" : "9324-MainThread",
       "children" : [ {
-        "name" : "其他测试用例_003的标题：试试上传一张图片",
-        "uid" : "b0339b21b6323766",
-        "parentUid" : "b4a0d0f2fb334449e46a4e751a3ccd36",
+        "name" : "测试用例标题：点击－免费试用/活动促销/加盟小渔夫－立即体验－页面跳转是否正确",
+        "uid" : "a8599de56701895",
+        "parentUid" : "07231c8a87945bb6d6bbdf27400c4797",
         "status" : "passed",
         "time" : {
-          "start" : 1596539656342,
-          "stop" : 1596539656343,
-          "duration" : 1
+          "start" : 1598587774682,
+          "stop" : 1598587806485,
+          "duration" : 31803
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "其他测试用例_002的标题：试试添加一个附件",
-        "uid" : "f05b6873ad3dbe0e",
-        "parentUid" : "b4a0d0f2fb334449e46a4e751a3ccd36",
+        "name" : "测试用例标题：点击－智能云站－云站解决方案－查看详情－检查链接跳转是否正确",
+        "uid" : "133b4e24429f1216",
+        "parentUid" : "07231c8a87945bb6d6bbdf27400c4797",
         "status" : "passed",
         "time" : {
-          "start" : 1596539656338,
-          "stop" : 1596539656339,
-          "duration" : 1
+          "start" : 1598587856487,
+          "stop" : 1598587868726,
+          "duration" : 12239
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "测试用例标题：自动登录并下单购买领英工具",
-        "uid" : "59a6d9ed9ea5caec",
-        "parentUid" : "b4a0d0f2fb334449e46a4e751a3ccd36",
+        "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+        "uid" : "7bf84b33e3974f4",
+        "parentUid" : "07231c8a87945bb6d6bbdf27400c4797",
         "status" : "passed",
         "time" : {
-          "start" : 1596539644033,
-          "stop" : 1596539656333,
-          "duration" : 12300
+          "start" : 1598587768523,
+          "stop" : 1598587774667,
+          "duration" : 6144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－标准版－立即购买－支付页面是否正确",
+        "uid" : "74fec6d1ce9e5200",
+        "parentUid" : "07231c8a87945bb6d6bbdf27400c4797",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598587868741,
+          "stop" : 1598587880944,
+          "duration" : 12203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－立即试用－页面跳转是否正确",
+        "uid" : "14d2853a2f83d9be",
+        "parentUid" : "07231c8a87945bb6d6bbdf27400c4797",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598587843191,
+          "stop" : 1598587856467,
+          "duration" : 13276
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+        "uid" : "22f1235f5bb189dd",
+        "parentUid" : "07231c8a87945bb6d6bbdf27400c4797",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598587806513,
+          "stop" : 1598587843175,
+          "duration" : 36662
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "b4a0d0f2fb334449e46a4e751a3ccd36"
+      "uid" : "07231c8a87945bb6d6bbdf27400c4797"
+    }, {
+      "name" : "3732-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题：点击－智能云站－立即试用－页面跳转是否正确",
+        "uid" : "9371edd6f427544c",
+        "parentUid" : "b74b8d0b00c0c4500de1efda671e016d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598586476568,
+          "stop" : 1598586476568,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－免费试用/活动促销/加盟小渔夫－立即体验－页面跳转是否正确",
+        "uid" : "d449e9e4d2778682",
+        "parentUid" : "b74b8d0b00c0c4500de1efda671e016d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598586336420,
+          "stop" : 1598586349813,
+          "duration" : 13393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－标准版－立即购买－支付页面是否正确",
+        "uid" : "d1ee3eee7015f088",
+        "parentUid" : "b74b8d0b00c0c4500de1efda671e016d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598586476644,
+          "stop" : 1598586476644,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－云站解决方案－查看详情－检查链接跳转是否正确",
+        "uid" : "b7c43f1f3061076e",
+        "parentUid" : "b74b8d0b00c0c4500de1efda671e016d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598586476606,
+          "stop" : 1598586476606,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+        "uid" : "79d03764e15140d2",
+        "parentUid" : "b74b8d0b00c0c4500de1efda671e016d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598586476529,
+          "stop" : 1598586476529,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+        "uid" : "332a2350ae8f84d9",
+        "parentUid" : "b74b8d0b00c0c4500de1efda671e016d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598586450414,
+          "stop" : 1598586450414,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+        "uid" : "4b159141d8caf8ca",
+        "parentUid" : "b74b8d0b00c0c4500de1efda671e016d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598586350419,
+          "stop" : 1598586359546,
+          "duration" : 9127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+        "uid" : "3ba377112458a411",
+        "parentUid" : "b74b8d0b00c0c4500de1efda671e016d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598586330222,
+          "stop" : 1598586336401,
+          "duration" : 6179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－免费试用/活动促销/加盟小渔夫－立即体验－页面跳转是否正确",
+        "uid" : "42ed3e8c79d504f7",
+        "parentUid" : "b74b8d0b00c0c4500de1efda671e016d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598586476474,
+          "stop" : 1598586476474,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－标准版－立即购买－支付页面是否正确",
+        "uid" : "be6f36c48c537681",
+        "parentUid" : "b74b8d0b00c0c4500de1efda671e016d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598586372976,
+          "stop" : 1598586376036,
+          "duration" : 3060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－立即试用－页面跳转是否正确",
+        "uid" : "7817a39cb60312ef",
+        "parentUid" : "b74b8d0b00c0c4500de1efda671e016d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598586359905,
+          "stop" : 1598586368989,
+          "duration" : 9084
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－云站解决方案－查看详情－检查链接跳转是否正确",
+        "uid" : "d26085731bc5dd9f",
+        "parentUid" : "b74b8d0b00c0c4500de1efda671e016d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598586369388,
+          "stop" : 1598586372443,
+          "duration" : 3055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b74b8d0b00c0c4500de1efda671e016d"
+    }, {
+      "name" : "2664-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+        "uid" : "621565e89516af4a",
+        "parentUid" : "a6de0bfc165256f4273873b8c6e1319f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603068317313,
+          "stop" : 1603068317313,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－云站解决方案－查看详情－检查链接跳转是否正确",
+        "uid" : "4d3cdcf82f6e44c4",
+        "parentUid" : "a6de0bfc165256f4273873b8c6e1319f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603068317401,
+          "stop" : 1603068317401,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－立即试用－页面跳转是否正确",
+        "uid" : "2fbfe88d1d0bed4f",
+        "parentUid" : "a6de0bfc165256f4273873b8c6e1319f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603068317363,
+          "stop" : 1603068317363,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－体验版/标准版/旗舰版－立即购买－支付页面是否正确",
+        "uid" : "a844df8650341a2a",
+        "parentUid" : "a6de0bfc165256f4273873b8c6e1319f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603068317437,
+          "stop" : 1603068317437,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－免费试用/活动促销/加盟小渔夫－立即体验－页面跳转是否正确",
+        "uid" : "ac21e727e4492910",
+        "parentUid" : "a6de0bfc165256f4273873b8c6e1319f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603068317276,
+          "stop" : 1603068317276,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+        "uid" : "52bfa8860acbd68e",
+        "parentUid" : "a6de0bfc165256f4273873b8c6e1319f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1603068293131,
+          "stop" : 1603068293131,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6de0bfc165256f4273873b8c6e1319f"
+    }, {
+      "name" : "7916-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+        "uid" : "9e9b90f7c46bcca9",
+        "parentUid" : "852692a97d6843fd37b21e5702b51827",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598533862412,
+          "stop" : 1598533864451,
+          "duration" : 2039
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－云站解决方案－查看详情－检查链接跳转是否正确",
+        "uid" : "59b0308d85d99c17",
+        "parentUid" : "852692a97d6843fd37b21e5702b51827",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598533867642,
+          "stop" : 1598533869688,
+          "duration" : 2046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－立即试用－页面跳转是否正确",
+        "uid" : "1c465c1097922bb7",
+        "parentUid" : "852692a97d6843fd37b21e5702b51827",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598533865048,
+          "stop" : 1598533867063,
+          "duration" : 2015
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－标准版－立即购买－支付页面是否正确",
+        "uid" : "32b4a3f49848ad94",
+        "parentUid" : "852692a97d6843fd37b21e5702b51827",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598533870275,
+          "stop" : 1598533872295,
+          "duration" : 2020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+        "uid" : "6d553ce403d2aee5",
+        "parentUid" : "852692a97d6843fd37b21e5702b51827",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598533853130,
+          "stop" : 1598533859196,
+          "duration" : 6066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－免费试用/活动促销/加盟小渔夫－立即体验－页面跳转是否正确",
+        "uid" : "9df4e1de922ed652",
+        "parentUid" : "852692a97d6843fd37b21e5702b51827",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598533859722,
+          "stop" : 1598533861808,
+          "duration" : 2086
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "852692a97d6843fd37b21e5702b51827"
+    }, {
+      "name" : "7216-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题：点击－智能云站－立即试用－页面跳转是否正确",
+        "uid" : "6e7146fd3aa0d094",
+        "parentUid" : "38d17911961074e846a4c6d071801006",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598534035237,
+          "stop" : 1598534048490,
+          "duration" : 13253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－云站解决方案－查看详情－检查链接跳转是否正确",
+        "uid" : "4985d74e6ab5440b",
+        "parentUid" : "38d17911961074e846a4c6d071801006",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598534048499,
+          "stop" : 1598534060705,
+          "duration" : 12206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－标准版－立即购买－支付页面是否正确",
+        "uid" : "30aff81be7217d5b",
+        "parentUid" : "38d17911961074e846a4c6d071801006",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598534060735,
+          "stop" : 1598534072922,
+          "duration" : 12187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+        "uid" : "7ff5349c989af8ac",
+        "parentUid" : "38d17911961074e846a4c6d071801006",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598533998521,
+          "stop" : 1598534035209,
+          "duration" : 36688
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－免费试用/活动促销/加盟小渔夫－立即体验－页面跳转是否正确",
+        "uid" : "f3253caa1b56cee0",
+        "parentUid" : "38d17911961074e846a4c6d071801006",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598533966882,
+          "stop" : 1598533998506,
+          "duration" : 31624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+        "uid" : "f27a5fbe0841fbde",
+        "parentUid" : "38d17911961074e846a4c6d071801006",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598533960694,
+          "stop" : 1598533966863,
+          "duration" : 6169
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38d17911961074e846a4c6d071801006"
+    }, {
+      "name" : "4176-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+        "uid" : "73cb08dcb2e62d4f",
+        "parentUid" : "feb05ceac56298d03435b9c78bd6bfeb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598586563456,
+          "stop" : 1598586566508,
+          "duration" : 3052
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－免费试用/活动促销/加盟小渔夫－立即体验－页面跳转是否正确",
+        "uid" : "b9c1544cfcc6abf2",
+        "parentUid" : "feb05ceac56298d03435b9c78bd6bfeb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598586559708,
+          "stop" : 1598586562783,
+          "duration" : 3075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+        "uid" : "988734bc603fd8e2",
+        "parentUid" : "feb05ceac56298d03435b9c78bd6bfeb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598586553549,
+          "stop" : 1598586559693,
+          "duration" : 6144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－立即试用－页面跳转是否正确",
+        "uid" : "f7c4f864b4255bfb",
+        "parentUid" : "feb05ceac56298d03435b9c78bd6bfeb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598586567076,
+          "stop" : 1598586570113,
+          "duration" : 3037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "feb05ceac56298d03435b9c78bd6bfeb"
+    }, {
+      "name" : "16012-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+        "uid" : "faf60b1fe55202f9",
+        "parentUid" : "044f2853891bac460e334d989a7e4ce4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598615792497,
+          "stop" : 1598615798656,
+          "duration" : 6159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－立即试用－页面跳转是否正确",
+        "uid" : "fe0adffbf6dbef60",
+        "parentUid" : "044f2853891bac460e334d989a7e4ce4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598615867032,
+          "stop" : 1598615880285,
+          "duration" : 13253
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－免费试用/活动促销/加盟小渔夫－立即体验－页面跳转是否正确",
+        "uid" : "d9c9c0fd622c705f",
+        "parentUid" : "044f2853891bac460e334d989a7e4ce4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598615798668,
+          "stop" : 1598615830420,
+          "duration" : 31752
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+        "uid" : "446bd9249d1a4f46",
+        "parentUid" : "044f2853891bac460e334d989a7e4ce4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598615830426,
+          "stop" : 1598615867011,
+          "duration" : 36585
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－云站解决方案－查看详情－检查链接跳转是否正确",
+        "uid" : "156f103e5b9700d5",
+        "parentUid" : "044f2853891bac460e334d989a7e4ce4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598615880294,
+          "stop" : 1598615892551,
+          "duration" : 12257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－体验版/标准版/旗舰版－立即购买－支付页面是否正确",
+        "uid" : "2425e75ceda4230c",
+        "parentUid" : "044f2853891bac460e334d989a7e4ce4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598615892574,
+          "stop" : 1598615929334,
+          "duration" : 36760
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "044f2853891bac460e334d989a7e4ce4"
+    }, {
+      "name" : "15052-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题：点击－智能云站－云站解决方案－查看详情－检查链接跳转是否正确",
+        "uid" : "f07d46c6d9a2c165",
+        "parentUid" : "28127442dc54efd1a9cceea712d6af3e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598529695616,
+          "stop" : 1598529697678,
+          "duration" : 2062
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－立即试用－页面跳转是否正确",
+        "uid" : "cdf13e5e83f64f95",
+        "parentUid" : "28127442dc54efd1a9cceea712d6af3e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598529693078,
+          "stop" : 1598529695144,
+          "duration" : 2066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－免费试用/活动促销/加盟小渔夫－立即体验－页面跳转是否正确",
+        "uid" : "e662ea1008f8f094",
+        "parentUid" : "28127442dc54efd1a9cceea712d6af3e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598529686720,
+          "stop" : 1598529689861,
+          "duration" : 3141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+        "uid" : "65195e49a6ff2489",
+        "parentUid" : "28127442dc54efd1a9cceea712d6af3e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598529672163,
+          "stop" : 1598529685569,
+          "duration" : 13406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+        "uid" : "9d68db0e93e1881",
+        "parentUid" : "28127442dc54efd1a9cceea712d6af3e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598529690582,
+          "stop" : 1598529692633,
+          "duration" : 2051
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－标准版－立即购买－支付页面是否正确",
+        "uid" : "5565b70d7f16e429",
+        "parentUid" : "28127442dc54efd1a9cceea712d6af3e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598529698191,
+          "stop" : 1598529700243,
+          "duration" : 2052
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "28127442dc54efd1a9cceea712d6af3e"
+    }, {
+      "name" : "11492-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题：点击－智能云站－立即试用－页面跳转是否正确",
+        "uid" : "f4a46974783f0d23",
+        "parentUid" : "b2c1b1c9baedff650c59f4abefcf1fd1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598530014290,
+          "stop" : 1598530017380,
+          "duration" : 3090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+        "uid" : "bbb414ba51f5da11",
+        "parentUid" : "b2c1b1c9baedff650c59f4abefcf1fd1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598529979090,
+          "stop" : 1598529986229,
+          "duration" : 7139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－标准版－立即购买－支付页面是否正确",
+        "uid" : "5fadcf866af94385",
+        "parentUid" : "b2c1b1c9baedff650c59f4abefcf1fd1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598530020489,
+          "stop" : 1598530022547,
+          "duration" : 2058
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－云站解决方案－查看详情－检查链接跳转是否正确",
+        "uid" : "f5bbf75cb2ef2408",
+        "parentUid" : "b2c1b1c9baedff650c59f4abefcf1fd1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598530017921,
+          "stop" : 1598530019955,
+          "duration" : 2034
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－免费试用/活动促销/加盟小渔夫－立即体验－页面跳转是否正确",
+        "uid" : "1ddc16a08b3cf7f1",
+        "parentUid" : "b2c1b1c9baedff650c59f4abefcf1fd1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598529986241,
+          "stop" : 1598530000189,
+          "duration" : 13948
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+        "uid" : "4110082d3f97b18a",
+        "parentUid" : "b2c1b1c9baedff650c59f4abefcf1fd1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598530004672,
+          "stop" : 1598530013766,
+          "duration" : 9094
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2c1b1c9baedff650c59f4abefcf1fd1"
+    }, {
+      "name" : "5328-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题：点击－智能云站－立即试用－页面跳转是否正确",
+        "uid" : "c82b8f5b21ed676b",
+        "parentUid" : "9c9652755a4932d43b32c1ca4daf28ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598615572000,
+          "stop" : 1598615585278,
+          "duration" : 13278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+        "uid" : "544f6af4de304108",
+        "parentUid" : "9c9652755a4932d43b32c1ca4daf28ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598615497491,
+          "stop" : 1598615503641,
+          "duration" : 6150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+        "uid" : "422adf19955d28be",
+        "parentUid" : "9c9652755a4932d43b32c1ca4daf28ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598615535373,
+          "stop" : 1598615571973,
+          "duration" : 36600
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－云站解决方案－查看详情－检查链接跳转是否正确",
+        "uid" : "e5bff6701a8fed5f",
+        "parentUid" : "9c9652755a4932d43b32c1ca4daf28ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598615585284,
+          "stop" : 1598615597480,
+          "duration" : 12196
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－体验版/标准版/旗舰版－立即购买－支付页面是否正确",
+        "uid" : "6bd9cdf605b2fc8d",
+        "parentUid" : "9c9652755a4932d43b32c1ca4daf28ce",
+        "status" : "broken",
+        "time" : {
+          "start" : 1598615597491,
+          "stop" : 1598615621851,
+          "duration" : 24360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－免费试用/活动促销/加盟小渔夫－立即体验－页面跳转是否正确",
+        "uid" : "f6c0a35dcc574e58",
+        "parentUid" : "9c9652755a4932d43b32c1ca4daf28ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598615503674,
+          "stop" : 1598615535368,
+          "duration" : 31694
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9c9652755a4932d43b32c1ca4daf28ce"
+    }, {
+      "name" : "13356-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题：点击－智能云站－立即试用－页面跳转是否正确",
+        "uid" : "a6943c1cabe493ec",
+        "parentUid" : "365be7eaa11197399952724e765e1a37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598614121270,
+          "stop" : 1598614134489,
+          "duration" : 13219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－标准版－立即购买－支付页面是否正确",
+        "uid" : "aefe000301595f13",
+        "parentUid" : "365be7eaa11197399952724e765e1a37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598614146750,
+          "stop" : 1598614158970,
+          "duration" : 12220
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+        "uid" : "48b455f8daa69ea5",
+        "parentUid" : "365be7eaa11197399952724e765e1a37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598614084643,
+          "stop" : 1598614121260,
+          "duration" : 36617
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－云站解决方案－查看详情－检查链接跳转是否正确",
+        "uid" : "57dcff4c4ec3278a",
+        "parentUid" : "365be7eaa11197399952724e765e1a37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598614134511,
+          "stop" : 1598614146733,
+          "duration" : 12222
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－免费试用/活动促销/加盟小渔夫－立即体验－页面跳转是否正确",
+        "uid" : "5ca461c4b9febe93",
+        "parentUid" : "365be7eaa11197399952724e765e1a37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598614052909,
+          "stop" : 1598614084618,
+          "duration" : 31709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+        "uid" : "5b1e75005cba25a7",
+        "parentUid" : "365be7eaa11197399952724e765e1a37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598614046757,
+          "stop" : 1598614052897,
+          "duration" : 6140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "365be7eaa11197399952724e765e1a37"
+    }, {
+      "name" : "8548-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题：点击－标准版－立即购买－支付页面是否正确",
+        "uid" : "249f352940934846",
+        "parentUid" : "3fadcedef27658ec8c31df92d5b25b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598586086216,
+          "stop" : 1598586098458,
+          "duration" : 12242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+        "uid" : "3ea2363e1176647c",
+        "parentUid" : "3fadcedef27658ec8c31df92d5b25b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598585998699,
+          "stop" : 1598586004871,
+          "duration" : 6172
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－立即试用－页面跳转是否正确",
+        "uid" : "ac9dcb4df4820fb8",
+        "parentUid" : "3fadcedef27658ec8c31df92d5b25b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598586060692,
+          "stop" : 1598586073918,
+          "duration" : 13226
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－免费试用/活动促销/加盟小渔夫－立即体验－页面跳转是否正确",
+        "uid" : "9a18fa283c15af4b",
+        "parentUid" : "3fadcedef27658ec8c31df92d5b25b4c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1598586004875,
+          "stop" : 1598586023402,
+          "duration" : 18527
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+        "uid" : "e72cf70db8027a3b",
+        "parentUid" : "3fadcedef27658ec8c31df92d5b25b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598586024085,
+          "stop" : 1598586060684,
+          "duration" : 36599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题：点击－智能云站－云站解决方案－查看详情－检查链接跳转是否正确",
+        "uid" : "6c4a0a818b9e0fb7",
+        "parentUid" : "3fadcedef27658ec8c31df92d5b25b4c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598586073925,
+          "stop" : 1598586086189,
+          "duration" : 12264
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3fadcedef27658ec8c31df92d5b25b4c"
     } ],
     "uid" : "3fda0945a9b4ca05fa209a0f94621591"
   } ]

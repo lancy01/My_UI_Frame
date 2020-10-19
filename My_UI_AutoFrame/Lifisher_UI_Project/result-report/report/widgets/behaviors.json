@@ -1,15 +1,15 @@
 {
   "total" : 1,
   "items" : [ {
-    "uid" : "78a43adf174b3eaffd1d5173344c7066",
-    "name" : "小渔夫建站工具订购大模块",
+    "uid" : "12fbcaae42c2525f55a1866f7187b0e9",
+    "name" : "小渔夫生产环境－首页－所有链接检测",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 6,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 6
     }
   } ]
 }

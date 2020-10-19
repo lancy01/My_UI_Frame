@@ -1,31 +1,61 @@
 [ {
-  "uid" : "b0339b21b6323766",
-  "name" : "其他测试用例_003的标题：试试上传一张图片",
+  "uid" : "a844df8650341a2a",
+  "name" : "测试用例标题：点击－体验版/标准版/旗舰版－立即购买－支付页面是否正确",
   "time" : {
-    "start" : 1596539656342,
-    "stop" : 1596539656343,
-    "duration" : 1
+    "start" : 1603068317437,
+    "stop" : 1603068317437,
+    "duration" : 0
   },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "59a6d9ed9ea5caec",
-  "name" : "测试用例标题：自动登录并下单购买领英工具",
-  "time" : {
-    "start" : 1596539644033,
-    "stop" : 1596539656333,
-    "duration" : 12300
-  },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "critical"
 }, {
-  "uid" : "f05b6873ad3dbe0e",
-  "name" : "其他测试用例_002的标题：试试添加一个附件",
+  "uid" : "ac21e727e4492910",
+  "name" : "测试用例标题：点击－免费试用/活动促销/加盟小渔夫－立即体验－页面跳转是否正确",
   "time" : {
-    "start" : 1596539656338,
-    "stop" : 1596539656339,
-    "duration" : 1
+    "start" : 1603068317276,
+    "stop" : 1603068317276,
+    "duration" : 0
   },
-  "status" : "passed",
-  "severity" : "blocker"
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "2fbfe88d1d0bed4f",
+  "name" : "测试用例标题：点击－智能云站－立即试用－页面跳转是否正确",
+  "time" : {
+    "start" : 1603068317363,
+    "stop" : 1603068317363,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "52bfa8860acbd68e",
+  "name" : "测试用例标题：点击－海外营销生态服务平台－立即查看－页面跳转是否正确",
+  "time" : {
+    "start" : 1603068293131,
+    "stop" : 1603068293131,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "621565e89516af4a",
+  "name" : "测试用例标题：点击－外贸学院－精选好课/Linkedin运营/外贸询盘分析&跟进技巧－立即学习－页面跳转是否正确",
+  "time" : {
+    "start" : 1603068317313,
+    "stop" : 1603068317313,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "critical"
+}, {
+  "uid" : "4d3cdcf82f6e44c4",
+  "name" : "测试用例标题：点击－智能云站－云站解决方案－查看详情－检查链接跳转是否正确",
+  "time" : {
+    "start" : 1603068317401,
+    "stop" : 1603068317401,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "critical"
 } ]

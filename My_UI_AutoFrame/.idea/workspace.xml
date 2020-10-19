@@ -1,7 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7cbdacb-694b-4d0e-b570-3e00e8249210" name="Default Changelist" comment="" />
+    <list default="true" id="a7cbdacb-694b-4d0e-b570-3e00e8249210" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/home_page_object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lifisher_UI_Project/src/base_operate/home_operate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lifisher_UI_Project/src/base_operate/login_operate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01/test_home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my_frame.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_frame.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/common/new_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lifisher_UI_Project/common/new_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/conf/logconf.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Lifisher_UI_Project/conf/logconf.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/attachments/3e86196003f7f7e.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/attachments/6cca86b2156c2e83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/attachments/f6c7bc9bb29f333.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/attachments/fde5f7605d4232e4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/login_page_object.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/test-cases/59a6d9ed9ea5caec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/test-cases/b0339b21b6323766.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/test-cases/f05b6873ad3dbe0e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/report/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/results/155e2d83-52d0-447c-8df1-2533ac1ff3b6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/results/1bab23df-73d5-4aa1-9183-4ee464c3e13d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/results/24cf9d33-2498-46d1-aed5-ca180d8b54f2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/results/7ddb74c7-2658-4091-aa94-c6f52d90b95b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/results/ac79aa88-2daf-4d6b-a059-49f8993119aa-attachment.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/results/b3269662-788d-4b3f-92a5-42b1767f3aac-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/results/becd1b87-7d05-445e-bda9-94c66fc323b5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/results/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/results/ce61b57f-7684-48a1-8bbe-3d6e2b3bf217-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/results/d56be9a6-86fd-4dfc-ba5b-014d55d94381-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/result-report/results/environment.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-07-22/2020-07-22 14-57_46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-07-22/2020-07-22 15-10-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-07-22/2020-07-22 15-17-43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-07-22/2020-07-22 15-27-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-08-01/2020-08-01 15-43-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-08-01/2020-08-01 15-46-49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-08-04/2020-08-04 15-18-09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-08-04/2020-08-04 15-33-31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-08-04/2020-08-04 15-34-47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-08-04/2020-08-04 15-36-54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-08-04/2020-08-04 15-38-41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-08-04/2020-08-04 15-42-57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/src/base_common/base_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lifisher_UI_Project/src/base_common/base_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/order_page_object.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/order_page_object.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/failures" beforeDir="false" afterPath="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/failures" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01/test_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01/order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screen-shoots/2020-08-04/2020-08-04 15-21-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screen-shoots/2020-08-04/2020-08-04 15-22-49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screen-shoots/2020-08-04/2020-08-04 15-27-51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screen-shoots/2020-08-04/2020-08-04 16-03-20.png" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,20 +96,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/run.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,6 +104,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sleep</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -42,7 +121,6 @@
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/order.py" />
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/base_operate/order.py" />
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/order_object.py" />
-        <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/base_common/base_action.py" />
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/logconftest.py" />
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/allure-logs/logs.log" />
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/help/log" />
@@ -59,24 +137,33 @@
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/utils/tools_excel_dict.py" />
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/utils/tools_excel_pro.py" />
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/utils/tools_excel_tuple.py" />
-        <option value="$PROJECT_DIR$/Lifisher_UI_Project/common/new_log.py" />
-        <option value="$PROJECT_DIR$/Lifisher_UI_Project/conf/logconf.ini" />
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/pytest.ini" />
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/common/new_results.py" />
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/conftest.py" />
-        <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/order_page_object.py" />
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/base_operate/order_operate.py" />
-        <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/conftest.py" />
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01/test_order.py" />
+        <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/order_page_object.py" />
+        <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/home_page.py" />
+        <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/base_common/base_action.py" />
+        <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/login_page.py" />
+        <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/login_page_object.py" />
+        <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/base_operate/login_operate.py" />
+        <option value="$PROJECT_DIR$/Lifisher_UI_Project/common/new_log.py" />
+        <option value="$PROJECT_DIR$/Lifisher_UI_Project/conf/logconf.ini" />
         <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/run.py" />
+        <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/conftest.py" />
+        <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/base_operate/home_operate.py" />
+        <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/home_page_object.py" />
+        <option value="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01/test_home.py" />
+        <option value="$PROJECT_DIR$/Lifisher_UI_Project/data/a.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="96" />
-    <option name="y" value="43" />
-    <option name="width" value="1169" />
-    <option name="height" value="917" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -100,27 +187,7 @@
               <item name="My_UI_AutoFrame" type="b2602c69:ProjectViewProjectNode" />
               <item name="My_UI_AutoFrame" type="462c0819:PsiDirectoryNode" />
               <item name="Lifisher_UI_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="result-report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My_UI_AutoFrame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My_UI_AutoFrame" type="462c0819:PsiDirectoryNode" />
-              <item name="Lifisher_UI_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="result-report" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My_UI_AutoFrame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My_UI_AutoFrame" type="462c0819:PsiDirectoryNode" />
-              <item name="Lifisher_UI_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="My_UI_AutoFrame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="My_UI_AutoFrame" type="462c0819:PsiDirectoryNode" />
-              <item name="Lifisher_UI_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test_suite" type="462c0819:PsiDirectoryNode" />
+              <item name="screen-shoots" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,10 +199,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/new_lifisher_ui" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -164,6 +231,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.run">
+    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="my_frame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lifisher_UI_Project/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lifisher_UI_Project/data/a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="new_results" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="my_frame" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,29 +310,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01/test_order.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tools_excel_pro" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="my_frame" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lifisher_UI_Project/utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lifisher_UI_Project/utils/tools_excel_pro.py" />
+      <option name="SCRIPT_NAME" value="E:\public_git\My_UI_AutoFrame\Lifisher_UI_Project\src\test_suite\test_01\order.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,10 +344,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.run" />
+        <item itemvalue="Python.a" />
         <item itemvalue="Python.test_order" />
         <item itemvalue="Python.new_results" />
         <item itemvalue="Python.tools_excel_tuple" />
-        <item itemvalue="Python.tools_excel_pro" />
       </list>
     </recent_temporary>
   </component>
@@ -302,21 +369,35 @@
       <workItem from="1596452878418" duration="3046000" />
       <workItem from="1596501008266" duration="14939000" />
       <workItem from="1596539575018" duration="125000" />
+      <workItem from="1596594268197" duration="4121000" />
+      <workItem from="1597028740056" duration="15638000" />
+      <workItem from="1597105974459" duration="24519000" />
+      <workItem from="1597218740918" duration="12476000" />
+      <workItem from="1598520273659" duration="815000" />
+      <workItem from="1598529137082" duration="1757000" />
+      <workItem from="1598533821476" duration="563000" />
+      <workItem from="1598580789527" duration="8300000" />
+      <workItem from="1598613657940" duration="2787000" />
+      <workItem from="1598618274147" duration="592000" />
+      <workItem from="1598947565590" duration="72000" />
+      <workItem from="1601210722332" duration="70000" />
+      <workItem from="1603068181317" duration="766000" />
+      <workItem from="1603089502433" duration="565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79545000" />
+    <option name="totallyTimeSpent" value="152586000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29957357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23347548" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.24590164" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20043337" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.08667389" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,7 +405,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.21235102" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -342,29 +423,15 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/My_UI_AutoFrame$tools_excel_pro.coverage" NAME="tools_excel_pro Coverage Results" MODIFIED="1596357405026" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lifisher_UI_Project/utils" />
-    <SUITE FILE_PATH="coverage/My_UI_AutoFrame$a.coverage" NAME="a Coverage Results" MODIFIED="1596346425452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lifisher_UI_Project/utils" />
-    <SUITE FILE_PATH="coverage/My_UI_AutoFrame$run.coverage" NAME="run Coverage Results" MODIFIED="1596539627913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite" />
+    <SUITE FILE_PATH="coverage/My_UI_AutoFrame$a.coverage" NAME="a Coverage Results" MODIFIED="1601210764284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lifisher_UI_Project/data" />
+    <SUITE FILE_PATH="coverage/My_UI_AutoFrame$run.coverage" NAME="run Coverage Results" MODIFIED="1603068288718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite" />
     <SUITE FILE_PATH="coverage/My_UI_AutoFrame$tools_excel_dict.coverage" NAME="tools_excel_dict Coverage Results" MODIFIED="1596347213975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lifisher_UI_Project/utils" />
-    <SUITE FILE_PATH="coverage/My_UI_AutoFrame$test_order.coverage" NAME="test_order Coverage Results" MODIFIED="1596527810034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01" />
+    <SUITE FILE_PATH="coverage/My_UI_AutoFrame$test_order.coverage" NAME="test_order Coverage Results" MODIFIED="1597030609831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01" />
     <SUITE FILE_PATH="coverage/My_UI_AutoFrame$tools_excel_tuple.coverage" NAME="tools_excel_tuple Coverage Results" MODIFIED="1596367392531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lifisher_UI_Project/utils" />
     <SUITE FILE_PATH="coverage/My_UI_AutoFrame$new_results.coverage" NAME="new_results Coverage Results" MODIFIED="1596501018462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lifisher_UI_Project/common" />
     <SUITE FILE_PATH="coverage/my_frame$test_order.coverage" NAME="test_order Coverage Results" MODIFIED="1595402828083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/helps/日志">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/helps/报告结果">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/pythonvenv.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -381,35 +448,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/report-results/environment.properties" />
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-07-22/2020-07-22 14-57_46.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-07-22/2020-07-22 15-10-24.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/helps/报错截图">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-08-01/2020-08-01 15-43-25.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-08-01/2020-08-01 15-46-49.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/base_common/base_action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="32" column="59" lean-forward="true" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-07-22/2020-07-22 14-57_46.png" />
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-07-22/2020-07-22 15-10-24.png" />
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-08-01/2020-08-01 15-43-25.png" />
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-08-01/2020-08-01 15-46-49.png" />
     <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/utils/a.py" />
     <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/utils/tools_excel_tuple.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -438,20 +480,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/result-report/results/environment.properties">
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/result-report/results/environment.properties" />
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01/test_login.py" />
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/helps/日志">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/screen-shoots/2020-08-10/2020-08-10 11-39-46.png" />
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01/failures">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/helps/测试报告">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/helps/报错截图">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/helps/报告结果">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/login_page_object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/base_operate/login_operate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01/order.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="32" column="20" selection-start-line="31" selection-start-column="12" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/base_common/base_action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/order_page_object.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="113" lean-forward="true" selection-start-line="13" selection-start-column="113" selection-end-line="13" selection-end-column="113" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/base_operate/order_operate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#0#81#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/common/new_log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="95" column="46" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
+        <state relative-caret-position="34">
+          <caret line="57" column="65" lean-forward="true" selection-start-line="57" selection-start-column="65" selection-end-line="57" selection-end-column="65" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -460,8 +586,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/common/new_results.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="72" lean-forward="true" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+        <state relative-caret-position="513">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -470,8 +596,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/conf/logconf.ini">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="31" column="44" lean-forward="true" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
+        <state relative-caret-position="589">
+          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/logs/logs.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="37" lean-forward="true" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -485,51 +621,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01/test_login.py" />
     <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <caret line="32" column="100" lean-forward="true" selection-start-line="32" selection-start-column="100" selection-end-line="32" selection-end-column="100" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/logs/logs.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/pytest.ini">
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/data/a.py" />
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01/test_home.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="21" selection-start-line="12" selection-start-column="15" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/test_01/test_order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+        <state relative-caret-position="-175">
+          <caret line="230" column="51" selection-start-line="230" selection-start-column="51" selection-end-line="230" selection-end-column="51" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/base_operate/order_operate.py">
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/base_operate/home_operate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        <state relative-caret-position="752">
+          <caret line="117" column="30" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="30" />
           <folding>
-            <element signature="e#0#81#0" expanded="true" />
+            <element signature="e#0#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/order_page_object.py">
+    <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/base_object/home_page_object.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="703">
+          <caret line="38" column="92" selection-start-line="38" selection-start-column="92" selection-end-line="38" selection-end-column="92" />
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
@@ -538,8 +664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lifisher_UI_Project/src/test_suite/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
